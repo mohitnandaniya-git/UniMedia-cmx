@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 20px auto;
+  /* Centering the body content with margin */
+  padding: 20px;
+  /* Adding padding for better spacing around content */
+  background-color: #f9f9f9;
+  /* Light background for better readability */
+}
+
+h1 {
+  color: #14364b;
+  margin-bottom: 5px;
+  /* Add margin to separate the heading from the form */
+}
+
+h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  /* Add margin to separate the heading from the form */
+}
+
+textarea,
+input[type="file"] {
+  margin-bottom: 15px;
+  /* Increase bottom margin for more space between fields */
+  width: 100%;
+  padding: 10px;
+  /* Add padding inside input fields for better user experience */
+  border-radius: 5px;
+  /* Rounded corners for a smoother look */
+  border: 1px solid #ccc;
+  /* Light border around input fields */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  /* Slightly larger padding for better button size */
+  width: 100%;
+  /* Ensure button takes full width */
+  border: none;
+  border-radius: 5px;
+  /* Rounded button edges */
+  cursor: pointer;
+  margin-top: 10px;
+  /* Add margin to separate button from other elements */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output {
+  margin-top: 20px;
+  /* Spacing above output text */
+  font-weight: bold;
+  padding: 10px;
+  /* Padding inside the output area */
+  background-color: #eef;
+  /* Light background for output section */
+  border-radius: 5px;
+  /* Rounded corners for output section */
+  border: 1px solid #ccc;
+  /* Light border for output section */
+}

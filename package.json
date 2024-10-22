@@ -1,0 +1,19 @@
+{
+  "name": "unimedia",
+  "version": "1.0.0",
+  "description": "UniMedia is a Chrome extension that allows users to securely store and retrieve text, images, and voice data using a unique ID. With a simple UI and local storage integration, users can easily manage multimedia data for future reference.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

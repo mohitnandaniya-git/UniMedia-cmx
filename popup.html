@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>IDMedia Connect</title>
+</head>
+
+<body>
+    <h1>UniMedia</h1>
+    <h2>Store Data</h2>
+    <form id="dataForm">
+        <label for="textData">Text:</label>
+        <textarea id="textData" placeholder="Enter text here..."></textarea><br>
+
+        <label for="imageData">Image:</label>
+        <input type="file" id="imageData" accept="image/*"><br>
+
+        <label for="voiceData">Voice:</label>
+        <input type="file" id="voiceData" accept="audio/*"><br>
+
+        <button id="generateBtn" type="button">Generate Unique ID</button>
+    </form>
+
+    <div id="output"></div>
+    <h2>Retrieve Data</h2>
+    <form id="retrieveForm">
+        <label for="uniqueID">Enter Unique ID:</label>
+        <input type="text" id="uniqueID" placeholder="Enter your unique ID"><br>
+
+        <button id="retrieveBtn" type="button">Retrieve Data</button>
+    </form>
+
+
+    <div id="retrievedData">
+        <h3>Retrieved Data:</h3>
+        <div id="retrievedText"></div>
+        <img id="retrievedImage" alt="Retrieved Image" style="max-width: 200px; display: none;">
+        <audio id="retrievedVoice" controls style="display: none;"></audio>
+    </div>
+
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
