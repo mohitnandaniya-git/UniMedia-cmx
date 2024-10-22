@@ -85,12 +85,12 @@ To run the UniMedia Chrome extension locally, ensure you have the following inst
 ### Screenshots
 
 - **Store Data Interface**
-
-  ![Store Data](https://via.placeholder.com/300x200?text=Store+Data+Interface)
+<img width="340" alt="Screenshot 2024-10-22 at 11 31 49 PM" src="https://github.com/user-attachments/assets/651e78ef-840d-4237-925b-f1cf3c18d29f">
 
 - **Retrieve Data Interface**
+<img width="340" alt="Screenshot 2024-10-22 at 11 32 54 PM" src="https://github.com/user-attachments/assets/caa96ad7-bc54-4be4-9644-2d0b6878959a">
 
-  ![Retrieve Data](https://via.placeholder.com/300x200?text=Retrieve+Data+Interface)
+ 
 
 ### Webpack Configuration
 
